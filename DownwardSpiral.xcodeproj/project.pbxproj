@@ -14,6 +14,9 @@
 		C6758B7D224841B100C2E168 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6758B7B224841B100C2E168 /* LaunchScreen.storyboard */; };
 		C6758B88224841B100C2E168 /* DownwardSpiralTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6758B87224841B100C2E168 /* DownwardSpiralTests.swift */; };
 		C6758B93224841B100C2E168 /* DownwardSpiralUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6758B92224841B100C2E168 /* DownwardSpiralUITests.swift */; };
+		C6758BA5224842C200C2E168 /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = C6758BA4224842C200C2E168 /* Assets */; };
+		C6758BA82248486900C2E168 /* JsonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6758BA72248486900C2E168 /* JsonExtensions.swift */; };
+		C6758BAA2248593300C2E168 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6758BA92248593300C2E168 /* GraphView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		C6758B8E224841B100C2E168 /* DownwardSpiralUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DownwardSpiralUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6758B92224841B100C2E168 /* DownwardSpiralUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownwardSpiralUITests.swift; sourceTree = "<group>"; };
 		C6758B94224841B100C2E168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6758BA4224842C200C2E168 /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
+		C6758BA72248486900C2E168 /* JsonExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonExtensions.swift; sourceTree = "<group>"; };
+		C6758BA92248593300C2E168 /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +103,11 @@
 		C6758B71224841AE00C2E168 /* DownwardSpiral */ = {
 			isa = PBXGroup;
 			children = (
+				C6758BA62248483200C2E168 /* Library */,
+				C6758BA4224842C200C2E168 /* Assets */,
 				C6758B72224841AE00C2E168 /* AppDelegate.swift */,
 				C6758B74224841AE00C2E168 /* ViewController.swift */,
+				C6758BA92248593300C2E168 /* GraphView.swift */,
 				C6758B76224841AE00C2E168 /* Main.storyboard */,
 				C6758B79224841B100C2E168 /* Assets.xcassets */,
 				C6758B7B224841B100C2E168 /* LaunchScreen.storyboard */,
@@ -123,6 +132,14 @@
 				C6758B94224841B100C2E168 /* Info.plist */,
 			);
 			path = DownwardSpiralUITests;
+			sourceTree = "<group>";
+		};
+		C6758BA62248483200C2E168 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				C6758BA72248486900C2E168 /* JsonExtensions.swift */,
+			);
+			path = Library;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6758BA5224842C200C2E168 /* Assets in Resources */,
 				C6758B7D224841B100C2E168 /* LaunchScreen.storyboard in Resources */,
 				C6758B7A224841B100C2E168 /* Assets.xcassets in Resources */,
 				C6758B78224841AE00C2E168 /* Main.storyboard in Resources */,
@@ -256,8 +274,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6758BA82248486900C2E168 /* JsonExtensions.swift in Sources */,
 				C6758B75224841AE00C2E168 /* ViewController.swift in Sources */,
 				C6758B73224841AE00C2E168 /* AppDelegate.swift in Sources */,
+				C6758BAA2248593300C2E168 /* GraphView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
