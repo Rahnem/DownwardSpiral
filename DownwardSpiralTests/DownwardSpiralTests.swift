@@ -19,10 +19,15 @@ class DownwardSpiralTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testBadJsonFile() {
+        XCTAssertThrowsError(try GraphModel(jsonUrl: "foo.bar"))
     }
+    
+    func testBadJsonData1() {
+        let bad = Dictionary<String,Array<Int>>()
+        XCTAssertThrowsError(try GraphModel(rawData: bad))
+    }
+    
 
     func testPerformanceExample() {
         // This is an example of a performance test case.

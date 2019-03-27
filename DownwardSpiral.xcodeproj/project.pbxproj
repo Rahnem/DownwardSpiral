@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C66FBB13224B26510036A206 /* GraphModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66FBB12224B26510036A206 /* GraphModel.swift */; };
 		C6758B73224841AE00C2E168 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6758B72224841AE00C2E168 /* AppDelegate.swift */; };
 		C6758B75224841AE00C2E168 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6758B74224841AE00C2E168 /* ViewController.swift */; };
 		C6758B78224841AE00C2E168 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6758B76224841AE00C2E168 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C66FBB12224B26510036A206 /* GraphModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphModel.swift; sourceTree = "<group>"; };
 		C6758B6F224841AE00C2E168 /* DownwardSpiral.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DownwardSpiral.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6758B72224841AE00C2E168 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6758B74224841AE00C2E168 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				C6758BA4224842C200C2E168 /* Assets */,
 				C6758B72224841AE00C2E168 /* AppDelegate.swift */,
 				C6758B74224841AE00C2E168 /* ViewController.swift */,
+				C66FBB12224B26510036A206 /* GraphModel.swift */,
 				C6758BA92248593300C2E168 /* GraphView.swift */,
 				C6758B76224841AE00C2E168 /* Main.storyboard */,
 				C6758B79224841B100C2E168 /* Assets.xcassets */,
@@ -278,6 +281,7 @@
 				C6758B75224841AE00C2E168 /* ViewController.swift in Sources */,
 				C6758B73224841AE00C2E168 /* AppDelegate.swift in Sources */,
 				C6758BAA2248593300C2E168 /* GraphView.swift in Sources */,
+				C66FBB13224B26510036A206 /* GraphModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
